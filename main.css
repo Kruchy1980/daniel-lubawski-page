@@ -1,0 +1,69 @@
+/* All elements */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* body */
+
+body {
+    background-color: #000;
+}
+
+
+/* Main style */
+
+.main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    color: #eee;
+}
+
+
+/* Content */
+
+.content {
+    text-align: center;
+}
+
+
+/* anchor tags */
+
+.content a {
+    text-decoration: none;
+    color: #eee;
+}
+
+
+/* anchors hover */
+
+.content a:hover {
+    color: #999;
+}
+
+
+/* upper text */
+
+.text-upper {
+    margin: 10px;
+    line-height: 2.6em;
+}
+
+
+/* text bottom */
+
+.text-bottom {
+    margin: 5%;
+    line-height: 2.6em;
+}
+
+
+/* Image */
+
+.big-logo img {
+    width: 50%;
+    height: 50%;
+}
