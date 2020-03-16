@@ -64,8 +64,6 @@ body {
 /* Image */
 
 .big-logo img {
-    -webkit-line-clamp: (300px, 50%, 60%);
-    /* height: -webkit-clamp(300px, 50%, 60%); */
     width: clamp(300px, 50%, 60%);
     height: clamp(300px, 50%, 60%);
     margin-top: -3%;
