@@ -49,7 +49,7 @@ body {
 
 .text-upper {
     margin: 10px;
-    line-height: 2.6em;
+    line-height: 2.4em;
 }
 
 
@@ -57,7 +57,7 @@ body {
 
 .text-bottom {
     margin: 5%;
-    line-height: 2.6em;
+    line-height: 2.4em;
 }
 
 
@@ -66,4 +66,5 @@ body {
 .big-logo img {
     width: 50%;
     height: 50%;
+    margin-top: -3%;
 }
