@@ -18,7 +18,8 @@ body {
 
 .main {
     font-family: 'Roboto', sans-serif;
-    font-size: clamp(12px, 1.5vw, 20px);
+    font-size: 1.3em;
+    font-size: 3vw;
     color: #eee;
 }
 
@@ -56,7 +57,7 @@ body {
 /* text bottom */
 
 .text-bottom {
-    margin: 3%;
+    margin: 5%;
     line-height: 2.4em;
 }
 
@@ -64,7 +65,61 @@ body {
 /* Image */
 
 .big-logo img {
-    width: clamp(300px, 50%, 60%);
-    height: clamp(300px, 50%, 60%);
+    width: 50%;
+    height: 50%;
     margin-top: -3%;
+    width: 80%;
+    height: 80%;
+    margin-top: 0;
+}
+
+@media screen and (min-width: 425px) {
+    .main {
+        font-size: 3vw;
+        color: #eee;
+    }
+    .big-logo img {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        font-size: 2.5vw;
+        color: #eee;
+    }
+    .big-logo img {
+        width: 70%;
+        height: 70%;
+        margin-top: -3%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main {
+        font-size: 2vw;
+        color: #eee;
+    }
+    .big-logo img {
+        width: 50%;
+        height: 50%;
+        margin-top: -5%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .main {
+        font-size: 2vw;
+        color: #eee;
+    }
+    .text-bottom {
+        margin: 5%;
+        line-height: 2.4em;
+    }
+    .big-logo img {
+        width: 50%;
+        height: 50%;
+        margin-top: -5%;
+    }
 }
