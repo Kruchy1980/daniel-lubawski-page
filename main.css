@@ -18,9 +18,7 @@ body {
 
 .main {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.3em;
     font-size: 3vw;
-    color: #eee;
 }
 
 
@@ -28,6 +26,7 @@ body {
 
 .content {
     text-align: center;
+    color: #f9992d;
 }
 
 
@@ -35,14 +34,14 @@ body {
 
 .content a {
     text-decoration: none;
-    color: #eee;
+    color: #f9992d;
 }
 
 
 /* anchors hover */
 
 .content a:hover {
-    color: #999;
+    color: #c07724;
 }
 
 
@@ -50,24 +49,21 @@ body {
 
 .text-upper {
     margin: 10px;
-    line-height: 2.4em;
+    line-height: 2em;
 }
 
 
 /* text bottom */
 
 .text-bottom {
-    margin: 5%;
-    line-height: 2.4em;
+    margin: 2% 0;
+    line-height: 2em;
 }
 
 
 /* Image */
 
 .big-logo img {
-    width: 50%;
-    height: 50%;
-    margin-top: -3%;
     width: 80%;
     height: 80%;
     margin-top: 0;
@@ -76,7 +72,6 @@ body {
 @media screen and (min-width: 425px) {
     .main {
         font-size: 3vw;
-        color: #eee;
     }
     .big-logo img {
         width: 80%;
@@ -87,7 +82,6 @@ body {
 @media screen and (min-width: 768px) {
     .main {
         font-size: 2.5vw;
-        color: #eee;
     }
     .big-logo img {
         width: 70%;
@@ -99,27 +93,25 @@ body {
 @media screen and (min-width: 1024px) {
     .main {
         font-size: 2vw;
-        color: #eee;
     }
     .big-logo img {
         width: 50%;
         height: 50%;
-        margin-top: -5%;
+        margin-top: -3%;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .main {
-        font-size: 2vw;
-        color: #eee;
+        font-size: 1.5vw;
     }
     .text-bottom {
-        margin: 5%;
+        margin: 1% 0;
         line-height: 2.4em;
     }
     .big-logo img {
         width: 50%;
         height: 50%;
-        margin-top: -5%;
+        margin-top: -1%;
     }
 }
