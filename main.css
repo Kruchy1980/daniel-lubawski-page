@@ -26,7 +26,7 @@ body {
 
 .content {
     text-align: center;
-    color: #f9992d;
+    color: #ccc;
 }
 
 
@@ -34,14 +34,14 @@ body {
 
 .content a {
     text-decoration: none;
-    color: #f9992d;
+    color: #ccc;
 }
 
 
 /* anchors hover */
 
 .content a:hover {
-    color: #c07724;
+    color: #999;
 }
 
 
